@@ -1,0 +1,19 @@
+<div class="application_container">
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Welcome!</h3>
+  </div>
+  <div class="panel-body">
+    <% if session[:user_id] %>
+    <%= erb :_about, layout: false %>
+    
+    <% elsif session[:user_id] %>
+    <%= erb :_login, layout: false %>
+
+    <% else %>
+    <%= erb :_create_account, layout: false %>
+    <% end %>
+  </div>
+</div>
+</div>

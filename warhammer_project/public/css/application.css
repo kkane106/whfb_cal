@@ -1,9 +1,16 @@
-.container {
+.application_container {
   margin: 20px auto;
-  width: 600px;
-  padding: 0px 20px 20px 20px;
-  border: 1px dotted black;
+  width: 70%;
+  padding: 1em 1em 1em 1em;
 }
 th {
   text-align: left;
+}
+
+#index_banner {
+	width: 100%;
+}
+
+.jumbotron {
+
 }
